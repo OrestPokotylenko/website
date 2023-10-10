@@ -1,0 +1,169 @@
+* {
+  font-family: Arial;
+  font-size: 21px;
+  padding: 0;
+  margin: 0;
+}
+
+/* BORDER */
+
+.border {
+  width: 100%;
+  margin: 0px;
+  border-bottom: 3px solid black;
+  box-shadow: 0 0 10px rgba(42, 42, 42, 0.5);
+}
+
+/* HEADER */
+
+header {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+}
+
+nav {
+  padding: 30px 0px 30px;
+  margin-right: 130px;
+}
+
+button {
+  height: 40px;
+  width: 180px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 250ms;
+}
+
+button:active {
+  opacity: 0.7;
+  transition: 100ms;
+}
+
+/* MAIN SECTION */
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 250px 60px 0px;
+}
+
+/* ARTICLE */
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 28px;
+  margin: 100px 0px 50px;
+}
+
+p {
+  width: 600px;
+  margin-right: 30px;
+  text-shadow: 0 0 10px rgba(42, 42, 42, 0.25);
+}
+
+/* ASIDE */
+
+.images {
+  width: 400px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.image {
+  display: flex;
+  margin-bottom: 120px;
+  border-radius: 10px;
+}
+
+.first {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  place-self: center;
+}
+
+.second {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+  align-self: center;
+}
+
+.third {
+  grid-column: 1 / 3;
+  grid-row: 3 / 5;
+  place-self: center;
+}
+
+.fourth {
+  grid-column: 1 / 2;
+  grid-row: 4 / 6;
+}
+
+/* GALLERY */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0% 0%;
+}
+
+.gallery-text {
+  margin: 0px 150px 9px;
+}
+
+.gallery-images {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.separate-gallery-images {
+  margin: 80px 50px 0px;
+  transition: 300ms;
+}
+
+.separate-gallery-images:hover {
+  transform: scale(1.52);
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-style: italic;
+  color: #616161;
+  margin-top: 3%;
+}
+
+.homepage-footer {
+  margin-top: 10%;
+}
+
+/* CONTACT PAGE */
+
+
+
