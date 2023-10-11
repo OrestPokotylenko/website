@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+html {
+  background: linear-gradient(to bottom, #aaaaaa 0%, #ffffff 80%);
+}
+
 /* BORDER */
 
 .border {
@@ -17,7 +21,7 @@
 /* HEADER */
 
 header {
-  background-color: white;
+  background-color: #aaaaaa;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -164,6 +168,4 @@ footer {
 }
 
 /* CONTACT PAGE */
-
-
 
