@@ -51,6 +51,11 @@ button {
   cursor: pointer;
 }
 
+.on-page {
+  background-color: black;
+  color: white;
+}
+
 button:hover {
   background-color: black;
   color: white;
