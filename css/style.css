@@ -175,7 +175,11 @@ footer {
 }
 
 .homepage-footer {
-  margin-top: 10%;
+  margin-top: 10.5%;
+}
+
+#footer-text {
+  font-size: 17px;
 }
 
 /* CONTACT PAGE */
