@@ -7,19 +7,45 @@
     <title>Contact Form</title>
 </head>
 <body>
-    <form action="">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+    <header class=" border">
+        <img src="img/logo.png" alt="logo" width="100px" height="100px">
+        <nav>
+            <button>Homepage</button>
+            <button>Grote Markt</button>
+            <button>Proveniershuis</button>
+            <button>Kennemerland</button>
+            <button>Sea</button>
+            <button class="on-page">Contact</button>
+        </nav>
+    </header>
+    <section class="form-section">
+        <h1 class="form-title">contact us</h1>
+        <p class="form-reqired">required field*</p>
+        <form action="submit-form" method="post">
+            <label for="gender">Mr/Mrs*
+                <input class="gender-input" type="text" id="gender" name="gender" required>
+            </label>
 
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-        
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email">
+            <label for="Name">Name*
+                <input class="name-input" type="text" name="name" id="name" required>
+            </label>
 
-        <label for="message">Massage:</label>
-        <input type="text" id="message" name="message">
-    </form>
+            <label for="email">Email*
+                <input type="email" id="email" name="email" required>
+            </label>
+
+            <label for="number">Number
+                <input type="text" id="number" name="number">
+            </label>
+
+            <label for="request">Query/Request*
+                <textarea name="request" id="request" required></textarea>
+                <!-- <input class="request-input" type="text" id="request" name="request" required> -->
+            </label>
+
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
+    </section>
 </body>
 </html>
 
