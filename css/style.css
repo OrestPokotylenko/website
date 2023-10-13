@@ -18,7 +18,9 @@ html {
 .border, .gallery-border {
   width: 100%;
   margin: 0px;
-  border-bottom: 3px solid black;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
   box-shadow: 0 0 10px rgba(42, 42, 42, 0.5);
 }
 
