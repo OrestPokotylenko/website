@@ -21,7 +21,7 @@
     <section class="form-section">
         <h1 class="form-title">contact us</h1>
         <p class="form-reqired">required field*</p>
-        <form action="submit-form" method="post">
+        <form id="form1" class="row" action="submit-form" method="post">
             <label for="gender">Mr/Mrs*
                 <input class="gender-input" type="text" id="gender" name="gender" required>
             </label>
@@ -29,7 +29,8 @@
             <label for="Name">Name*
                 <input class="name-input" type="text" name="name" id="name" required>
             </label>
-
+        </form>
+        <form id="form2" action="submit-form" method="post">
             <label for="email">Email*
                 <input type="email" id="email" name="email" required>
             </label>
@@ -40,12 +41,13 @@
 
             <label for="request">Query/Request*
                 <textarea name="request" id="request" required></textarea>
-                <!-- <input class="request-input" type="text" id="request" name="request" required> -->
             </label>
 
-            <input class="submit-button" type="submit" value="Submit">
         </form>
+        <input class="submit-button" type="submit" value="Submit" onclick="submitForms()">
     </section>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
 

@@ -192,7 +192,7 @@ footer {
 /* CONTACT PAGE */
 
 .form-section {
-  height: 1500px;
+  height: 1110px;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -201,10 +201,26 @@ footer {
   margin: 250px 0 0;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gender-input {
+  width: 100px;
+  margin-right: 61px;
+}
+
+.name-input {
+  width: 430px;
+}
+
 form {
   width: 600px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .form-title {
@@ -213,6 +229,7 @@ form {
 
 .form-reqired, .form-title {
   margin-bottom: 42.5px;
+  margin-right: 0;
 }
 
 label {
