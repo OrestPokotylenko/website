@@ -111,6 +111,10 @@ ul {
   margin-left: 18px;
 }
 
+.indentation {
+  text-indent: 15px;
+}
+
 /* ASIDE */
 
 .images {
