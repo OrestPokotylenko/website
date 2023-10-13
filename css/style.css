@@ -124,6 +124,11 @@ ul {
   text-indent: 15px;
 }
 
+.indentation::first-letter {
+  font-size: 26px;
+  font-weight: bold;
+}
+
 /* ASIDE */
 
 .images {
@@ -207,7 +212,7 @@ margin-top: 19.7%;
 }
 
 .contactpage-footer {
-  margin-top: 10.5%;
+  margin-top: 8%;
 }
 
 #footer-text {
@@ -226,10 +231,16 @@ margin-top: 19.7%;
   margin: 250px 0 0;
 }
 
+.form-section > h1, .form-section > p, legend {
+  margin-bottom: 42.5px;
+  margin-right: 0;
+  text-transform: uppercase;
+}
+
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  float: left;
   border: none;
 }
 
@@ -252,12 +263,6 @@ form {
 .form-title {
   text-transform: uppercase;
 }
-
-.form-reqired, .form-title, legend {
-  margin-bottom: 42.5px;
-  margin-right: 0;
-}
-
 
 label {
   display: flex;
