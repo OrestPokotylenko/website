@@ -187,6 +187,7 @@ ul {
 }
 
 .separate-gallery-images {
+  width: 25%;
   margin: 80px 50px 0px;
   transition: 300ms;
 }
@@ -215,7 +216,7 @@ margin-top: 19.7%;
   margin-top: 8%;
 }
 
-#footer-text {
+.footer-text {
   font-size: 17px;
 }
 
