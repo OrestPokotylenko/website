@@ -27,20 +27,24 @@
         <h1>
             contact us
         </h1>
-        <p>
-            required field*
-        </p>
         <form action="submit-form" method="post">
+            <legend>
+                required field*
+            </legend>
+            <legend>
+                Contact Information:
+            </legend>
             <fieldset class="row">
-                <legend>
-                    Contact Information:
-                </legend>
-                <label for="gender">Mr/Mrs*
-                    <input class="gender-input" type="text" id="gender" name="gender" required>
+                <label class="gender">mr
+                    <input type="radio" name="gender" value ="mr" required>
+                </label>
+
+                <label class="gender">mrs
+                    <input type="radio" name="gender" value="mrs" required>
                 </label>
     
-                <label for="name">Name*
-                    <input class="name-input" type="text" name="name" id="name" required>
+                <label class="name-input" for="name">Name*
+                    <input type="text" name="name" id="name" required>
                 </label>
             </fieldset>
             <label for="email">Email*
