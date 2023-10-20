@@ -113,6 +113,10 @@ p {
   text-transform: uppercase;
 }
 
+.hyperlink-text:hover {
+  color: #000000;
+}
+
 .hyperlink-text:visited {
   opacity: 0.7;
 }
