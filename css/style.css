@@ -233,8 +233,6 @@ margin-top: 10%;
 /* CONTACT PAGE */
 
 .form-section {
-  height: auto;
-  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,6 +249,10 @@ margin-top: 10%;
   display: flex;
   justify-content: space-between;
   border: none;
+}
+
+.required-field {
+  width: 25%;
 }
 
 .name-input {
@@ -390,7 +392,7 @@ input:focus, textarea:focus {
     font-size: 10px;
   }
 
-  form {
+  form, .required-field {
     width: 75%;
   }
 
