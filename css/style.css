@@ -9,7 +9,7 @@
 }
 
 html {
-  background: linear-gradient(to bottom, #aaaaaa 0%, #ffffff 80%);
+  background: linear-gradient(to bottom, rgb(170, 170, 170) 0%, #ffffff 80%);
   min-height: 100%;
 }
 
@@ -143,6 +143,10 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
+}
+
+figcaption {
+  font-size: 18px;
 }
 
 .image {
@@ -352,6 +356,10 @@ input:focus::placeholder, textarea:focus::placeholder {
     font-size: 17px;
   }
 
+  figcaption {
+    font-size: 12px;
+  }
+
   button {
     width: 22%;
   } 
@@ -400,6 +408,20 @@ input:focus::placeholder, textarea:focus::placeholder {
     align-items: center;
     min-width: 100%;
     padding: 7% 0 0; 
+  }
+
+  figcaption {
+    font-size: 14px;
+  }
+
+  figure {
+    display: flex;
+    justify-content: center;
+  }
+
+  .first {
+    flex-direction: column;
+    align-items: center;
   }
 
   .image {
