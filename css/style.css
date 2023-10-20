@@ -316,6 +316,7 @@ input:hover, textarea:hover {
 
 input:focus, textarea:focus {
   background-color: white;
+  
   opacity: 1;
   box-shadow: 
     0px 0px 8px 6px rgba(0, 0, 0, 0.05),
@@ -324,13 +325,20 @@ input:focus, textarea:focus {
     0px 0px 8px 6px rgba(0, 0, 0, 0.05);
 }
 
+input:focus::placeholder, textarea:focus::placeholder {
+  color:transparent;
+}
+
 .submit-button {
   width: 50%;
   height: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
   align-self: center;
   background-color: transparent;
   border-radius: 22px;
   cursor: pointer;
+  opacity: 1;
 }
 
 .submit-button:focus {
