@@ -1,0 +1,5 @@
+Student name: Orest Pokotylenko 
+Student number: 698996
+Student class: IT1A
+GitHub Repository: https://github.com/OrestPokotylenko/website
+GitHub Pages URL: https://github.com/OrestPokotylenko
