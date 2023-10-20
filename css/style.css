@@ -24,7 +24,6 @@ html {
 }
 
 .gallery-border {
-  align-self: center;
   margin: 0;
   border-width: 1.5px;
 }
@@ -33,7 +32,6 @@ html {
 /* HEADER */
 
 header {
-  width: 100%;
   background-color: #aaaaaa;
   position: fixed;
   display: flex;
@@ -60,7 +58,6 @@ nav {
 button {
   height: 40px;
   width: 15%;
-  margin-left: auto;
   background-color: white;
   border-radius: 15px;
   cursor: pointer;
@@ -88,7 +85,6 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* margin: 250px 60px 0px; */
   margin: 14% 4% 0; 
 }
 
@@ -105,7 +101,6 @@ h1 {
 
 .heading {
   font-size: 28px;
-  /* margin: 100px 0px 50px; */
   margin: 13% 0 5%;
 }
 
@@ -114,7 +109,7 @@ p {
 }
 
 .hyperlink-text {
-  color: inherit;
+  color: purple;
   text-transform: uppercase;
 }
 
@@ -123,8 +118,6 @@ p {
 }
 
 .list {
-  /* margin-top: 100px;
-  margin-bottom: 50px; */
   margin: 13% 0 5%;
   font-size: 28px;
 }
@@ -200,7 +193,6 @@ ul {
 
 .separate-gallery-images {
   width: 25%;
-  /* margin: 80px 50px 0px; */
   margin: 3.5% 3% 0;
   transition: 300ms;
 }
@@ -222,7 +214,7 @@ footer {
 }
 
 .homepage-footer {
-margin-top: 19.7%;
+margin-top: 10%;
 }
 
 .contactpage-footer {
@@ -278,7 +270,6 @@ form {
 label {
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 50px; */
   margin-bottom: 8%;
   text-transform: uppercase;
   font-size: 18px;
@@ -311,7 +302,6 @@ input, textarea, .gender {
 }
 
 textarea {
-  /* padding-bottom: 160px; */
   padding-bottom: 12%;
   height: 200px;
   vertical-align: top;
@@ -354,17 +344,11 @@ input:focus, textarea:focus {
 
   * {
     font-size: 14px;
-    box-sizing: border-box;
   }
 
   header {
-    width: 100%;
     position: inherit;
   }
-
-  /* body {
-    overflow: hidden;
-  } */
 
   .logo {
     width: 20%;
@@ -382,17 +366,11 @@ input:focus, textarea:focus {
   }
 
   section {
-    min-width: fit-content;
-    min-height: 100%;
-    flex-direction: column;
-    align-content: space-around;
     flex-wrap: wrap;
     margin: 15% 3% 0;
   }
 
   .text {
-    display: flex;
-    flex-direction: column;
     width: 100%;
   }
 
@@ -400,7 +378,6 @@ input:focus, textarea:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: auto;
     min-width: 100%;
     padding: 7% 0 0; 
   }
@@ -411,5 +388,14 @@ input:focus, textarea:focus {
 
   .footer-text {
     font-size: 10px;
+  }
+
+  form {
+    width: 75%;
+  }
+
+  .name-input {
+    width: 70%;
+    margin-left: 3%;
   }
 }
