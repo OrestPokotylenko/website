@@ -55,14 +55,14 @@ nav {
   margin-right: 1%;
 }
 
-.button-link {
+/* .button-link {
   height: 40px;
   width: 15%;
-}
+} */
 
 button {
-  height: 100%;
-  width: 100%;
+  height: 40px;
+  width: 15%;
   background-color: #ffffff;
   border-radius: 15px;
   cursor: pointer;
