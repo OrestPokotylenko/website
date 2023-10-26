@@ -367,14 +367,9 @@ input:focus::placeholder, textarea:focus::placeholder {
     font-size: 12px;
   }
 
-  .button-link {
+  button {
     width: 22%;
   }
-
-  button {
-    width: 100%;
-  } 
-
 }
 
 @media screen and (max-width: 768px) {
@@ -400,12 +395,8 @@ input:focus::placeholder, textarea:focus::placeholder {
     margin: 0;
   }
 
-  .button-link {
-    width: 33%;
-  }
-
   button {
-    width: 100%;
+    width: 33%;
     word-wrap: break-word;
   }
 
